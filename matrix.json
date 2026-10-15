@@ -3,7 +3,13 @@
     {
       "tag": "v12.2-tizen",
       "repository": "andreadegiovine/jellyfin-web",
-      "artifact_name": "Jellyfin-master-TrailerFix",
+      "artifact_name": "Jellyfin",
+      "node24": true
+    },
+    {
+      "tag": "v12.2-tizen",
+      "repository": "andreadegiovine/jellyfin-web",
+      "artifact_name": "Jellyfin-TrailerFix",
       "node24": true,
       "youtube_fix": true
     }
