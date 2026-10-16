@@ -1,13 +1,42 @@
 {
   "include": [
     {
-      "tag": "v15.0.0",
+      "tag": "custom-tag",
       "repository": "andreadegiovine/jellyfin-web",
       "artifact_name": "Jellyfin",
       "node24": true
     },
     {
-      "tag": "v15.0.0",
+      "tag": "custom-tag",
+      "repository": "andreadegiovine/jellyfin-web",
+      "artifact_name": "Jellyfin-OblongIcon",
+      "node24": true,
+      "oblong_icon": true
+    },
+    {
+      "tag": "custom-tag",
+      "repository": "andreadegiovine/jellyfin-web",
+      "artifact_name": "Jellyfin-GrayFix",
+      "node24": true,
+      "gray_fix": true
+    },
+    {
+      "tag": "custom-tag",
+      "repository": "andreadegiovine/jellyfin-web",
+      "artifact_name": "Jellyfin-SmartHub",
+      "node24": true,
+      "smart_hub": true
+    },
+    {
+      "tag": "custom-tag",
+      "repository": "andreadegiovine/jellyfin-web",
+      "artifact_name": "Jellyfin-OSA",
+      "node24": true,
+      "oblong_icon": true,
+      "avplay": true
+    },
+    {
+      "tag": "custom-tag",
       "repository": "andreadegiovine/jellyfin-web",
       "artifact_name": "Jellyfin-TrailerFix",
       "node24": true,
