@@ -13,9 +13,13 @@ docker run --rm ghcr.io/georift/install-jellyfin-tizen 192.168.0.10 Jellyfin-Tru
 ```
 
 ### Install from custom repository
+Fork main repository.
 
-From a new branch (ex: release-15.0.0) or master:
+1. Actions → Enable workflow
+2. Settings → Actions → General → Workflow permissions → Read and write
+3. Remove get-latest-versions.yml
 
+From a new branch (ex: release-15.0.0) or master on your jellyfin-web fork:
 ```bash
 ./bump_version 15.0.0
 git commit -am "Bump version to 15.0.0"
@@ -23,3 +27,5 @@ git commit -am "Bump version to 15.0.0"
 ```bash
 git push origin v15.0.0
 ```
+
+
